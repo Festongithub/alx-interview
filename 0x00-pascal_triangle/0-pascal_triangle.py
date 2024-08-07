@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""A script that performs pascal algorithms"""
 
 def pascal_triangle(n):
     if n <= 0:
