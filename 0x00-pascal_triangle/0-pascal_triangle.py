@@ -1,7 +1,15 @@
 #!/usr/bin/python3
+
 """A script that performs pascal algorithms"""
 
+
 def pascal_triangle(n):
+    """
+    __summary__
+
+    Returns:
+    a list of integers representing Pascal's triangle of n
+    """
     if n <= 0:
         return []
 
